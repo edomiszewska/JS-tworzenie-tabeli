@@ -11,5 +11,14 @@ przycisk.addEventListener(`click`,(evt)=>{
         <td class="table-primary">${el[5]}  </td>
     </tr>`
     });
-    
+   
+    if (przycisk.innerHTML === "Generuj tabele") {
+        przycisk.innerHTML = "Usuń tabelę";
+    } else {
+        przycisk.innerHTML = "Generuj tabele";
+        tablica.innerHTML=" "
+    }
+    przycisk.classList.toggle(`btn-danger`);
+
+
 })
