@@ -15,22 +15,23 @@
 </h1>
 </header>
 
-
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">
 <div class="container"><center>
 
     <button type="button" class="btn btn-primary" id="button">Generuj tabelę</button>
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
     <table class="table-primary table" id="table">
       
-        
 
 
 
 
-    </table></center>
+
+    </table></center></div>
 
     
 </div>
-
+</div>
 <footer><center>
     <p class="text-primary">&COPY ME 2024 </p>
 </footer></center>
